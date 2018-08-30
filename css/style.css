@@ -1,0 +1,95 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  color:#3D3D40;
+}
+
+#body {
+  width:50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin:auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700,900');
+@media (max-width : 450px) {
+  #body {width:90%;}
+  .invisibledevice {display:none;}
+
+  }
+
+h1, h2, h3, h4 {
+  font-weight:500;
+  letter-spacing: 2px;
+  color:#267799;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, li, div, span, blockquote {
+  font-weight:300;
+  font-size:1.05em;
+}
+
+b {
+  font-weight:500;
+}
+
+blockquote {
+  font-style:italic;
+  border-left:1px solid #CC6F80;
+  margin-left:40px;
+  margin-right:40px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#FFE7E5;
+  color:#CC6F80;
+}
+
+footer {
+  background-color: #F4F4FF;
+  color:#3D3D40;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:30%;
+  padding-right:30%;
+  margin:auto;
+  font-size: 0.8em;
+}
+
+.article a {
+  text-decoration:none;
+  background:#ffe86d;
+  color:inherit;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Couleurs */
+.darkblue {color:#267799;}
+.red {color:#CC6F80;}
+.lightblue {color:#6FB1CC;}
+.pale {color:#FFE7E5;}
+.turquoise {color:#A5FFE8;}
+.darkgrey {color:#3D3D40;}
+.grey {color:#B7B7BF;}
+.lightgrey {color:#F4F4FF;}
+
+.borderbot {border-bottom: #3D3D40 1px solid; padding-bottom: 40px;}
